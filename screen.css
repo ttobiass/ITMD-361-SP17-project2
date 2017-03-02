@@ -1,0 +1,214 @@
+/* Overall Page formatting */
+#page
+{
+	height: 100%; 
+	max-width: 56.250em; 
+	margin: auto;
+}
+
+/* Main Styling */
+
+body
+{
+	padding: 0.75em; 
+	padding-top: 0;
+	font-family: 'Sansita', sans-serif;
+	font-size: 1em;         
+	background-color: #EAE0FF;
+}
+
+header
+{
+	padding: 0.01em;  
+	background-color: #63FFD0;
+	font-family: 'Sansita', sans-serif;
+	color: #160066;
+	text-align: center;
+	letter-spacing: 0.1em;
+}
+
+nav{
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+main
+{
+	background-color: #E9FFF8;
+	padding: 1.5em;
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
+footer
+{
+	font-size: 0.6em;
+	text-align: center;
+}
+
+/* Navigation Specific Styling */
+.nav
+{
+	margin-left: 0;
+	padding-bottom: 0;
+}
+.nav li
+{
+	float: left;
+	width: 25%;
+	list-style-type: none;
+	padding-bottom: 0;
+}
+
+.nav a 
+{
+  display: block;
+  text-align: center;
+  line-height: 1;
+  padding: 0.6315789474em 0.3157894737em; /* ~ 12px 6px @ 19px/em */
+  background-color: #843AFF;
+  color: #D4FFEB;
+  border-bottom: 0;
+}
+
+/* Hyperlinks & Lists */
+
+a
+{
+	color: #843AFF;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #56C2A1;
+	text-decoration: none;
+}
+
+ul li
+{
+	list-style: circle;
+}
+
+/* Home Specific */
+.headshot
+{
+	float: right;
+}
+
+.home
+{
+	height: 100%; 
+	max-width: 56.250em; 
+	margin: auto;
+}
+
+.home h3
+{
+	font-family: 'Tillana', cursive;
+}
+
+/* About Specific */
+.about h2
+{
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+.about li
+{
+	float: left;
+	width: 33%;
+	padding-bottom: 0;
+}
+.samf15
+{
+	float:right;
+	font-family: 'Calligraffitti', cursive;
+}
+
+.ssmf15
+{
+	padding: 0.1em;
+	font-family: 'Calligraffitti', cursive;
+}
+
+.samf16
+{
+	float:right;
+	font-family: 'Calligraffitti', cursive;
+}
+
+.edc16 
+{
+	font-family: 'Calligraffitti', cursive;
+}
+
+/* Resume Specific */
+.resume
+{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 0.75em;
+}
+
+.resume h3
+{
+	font-family: 'Cinzel', serif;
+	font-size: 1.5em
+}
+
+
+.skills
+{
+	float: right;
+	padding: 1em;
+}
+
+.skills li
+{
+	list-style-type: none;
+}
+
+.skills h3
+{
+	font-family: 'Cinzel', serif;
+}
+
+.education 
+{
+	list-style-type: none;
+	width: 34.375em;
+	padding: 1em;
+}
+
+.education h3
+{
+	font-family: 'Cinzel', serif;
+}
+
+.work 
+{
+	list-style-type: none;
+	width: 34.375em;
+}
+
+.work h3
+{
+	font-family: 'Cinzel', serif;
+}
+
+.extra 
+{
+	list-style-type: none;
+}
+
+.extra h3
+{
+	font-family: 'Cinzel', serif;
+}
+
+/* Contact Specific */
+.contact li
+{
+	list-style-type: none;
+}
