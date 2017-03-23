@@ -50,26 +50,23 @@ footer
 /* Navigation Specific Styling */
 .nav
 {
-	margin-left: 0;
-	padding-bottom: 0;
+  margin-left: 0;
+  padding-bottom: 0;
+  background-color: #843AFF;
 }
 .nav li
 {
-	float: left;
-	width: 25%;
-	list-style-type: none;
-	padding-bottom: 0;
+  display:inline-block; /* this makes your list elements show up in 1 row*/
+  width: 20%;
+  list-style-type: none;
+  padding: 0.6315789474em 0.3157894737em; /* ~ 12px 6px @ 19px/em */
 }
 
 .nav a 
 {
-  display: block;
   text-align: center;
   line-height: 1;
-  padding: 0.6315789474em 0.3157894737em; /* ~ 12px 6px @ 19px/em */
-  background-color: #843AFF;
   color: #D4FFEB;
-  border-bottom: 0;
 }
 
 /* Hyperlinks & Lists */
